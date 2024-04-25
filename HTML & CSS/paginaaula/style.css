@@ -1,0 +1,78 @@
+body {
+	background-image: url(imagens/fundo.png);
+}
+
+#menu {
+	padding: 18px;
+	position: relative;
+	width: 864px;
+	height: 60px;
+	display: flex;
+	justify-content: left;
+	background-color: #F5ECCE;
+}
+
+.foto {
+	position: relative;
+	border: 10px solid;
+	border-color: #F5ECCE;
+	margin-left: 10px;
+}
+
+.menu {
+	font-size: 20px;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: #0B173B;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+a {
+	padding: 5px;
+}
+
+h2 {
+	margin-left: 10px;
+	color: #9A9174;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.texto {
+	position: static;
+	display: grid;
+	width: 900px;
+	background-color: #F7F2E0;
+}
+
+p {
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size:15px;
+	font-weight: 400;
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+.contato {
+	font-weight: bold;
+}
+
+body {
+		font: 16px Arial, helvetica, sans-serif;
+}
